@@ -18,6 +18,7 @@
 }
 .blogs_cover_photo {
   border-radius: 8px;
+  width: 100%;
 }
 
 .author_info_box {
@@ -27,8 +28,8 @@
   gap: 3rem;
 }
 .author_img_box {
-  width: 8rem;
-  height: 8rem;
+  max-width: 8rem;
+  max-height: 8rem;
 }
 .author_img {
   width: 100%;
@@ -61,6 +62,7 @@
   font-size: 2rem;
   border: 0;
   color: #707070;
+  background-color: transparent;
 }
 .blogs_type {
 }

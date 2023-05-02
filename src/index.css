@@ -1,38 +1,38 @@
-
 /* ==================
 reset css start
 ====================*/
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap");
 
-*,*::after,*::before{
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
 }
-html{
+html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-size: 1.6rem;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   line-height: 1;
   background-color: #fff;
 }
-a{
+a {
   text-decoration: none;
 }
-ul,li{
+ul,
+li {
   list-style: none;
 }
-img{
+img {
   max-width: 100%;
   height: auto;
 }
-
-
 /* ==================
 reset css end
 ====================*/
@@ -40,40 +40,92 @@ reset css end
 /* ==================
 reusable classes start
 ====================*/
-.container{
+.container {
   max-width: 116rem;
   margin: 0 auto;
 }
 
-
 .heading_primary {
   font-size: 3.6rem;
   color: #202020;
-  letter-spacing: -.5px;
+  letter-spacing: -0.5px;
   font-weight: 700;
 }
-.heading_secondary{
+.heading_secondary {
   font-size: 2.4rem;
   font-weight: 700;
-  letter-spacing: -.5px;
+  letter-spacing: -0.5px;
   color: #202020;
 }
 /* ==================
 reusable classes end
 ====================*/
 
-
 /* ==================
 utilities classes start
 ====================*/
-.mb_md{
+.mb_md {
   margin-bottom: 2.4rem !important;
 }
-
-.mb_lg{
+.mb_lg {
   margin-bottom: 4rem !important;
+}
+/* ==================
+utilities classes end
+====================*/
+
+/* ==================
+media queries start
+====================*/
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    padding: 0 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .nav_list {
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav_item {
+    margin-right: 0;
+  }
+  .logo_link {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .blogs_container {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    order: -1;
+    height: auto;
+    position: initial;
+  }
+  .h_line {
+    padding: 0 10px;
+  }
+  .copyright_text {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (min-width: 576px){
+  
 }
 
 /* ==================
-utilities classes end
+media queries end
 ====================*/

@@ -1,7 +1,7 @@
-.container.footer_area{
-  padding: 4rem 0;
+.footer_area{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
-.h_line{}
 .copyright_text{
   text-align: center;
   font-size: 1.8rem;
