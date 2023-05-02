@@ -1,0 +1,10 @@
+.container.footer_area{
+  padding: 4rem 0;
+}
+.h_line{}
+.copyright_text{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #202020;
+}

@@ -1,0 +1,76 @@
+
+/* ==================
+reset css start
+====================*/
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap');
+
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: 'Exo 2', sans-serif;
+  line-height: 1;
+  background-color: #fff;
+}
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ==================
+reset css end
+====================*/
+
+/* ==================
+reusable classes start
+====================*/
+.container{
+  max-width: 116rem;
+  margin: 0 auto;
+}
+
+
+.heading_primary {
+  font-size: 3.6rem;
+  color: #202020;
+  letter-spacing: -.5px;
+  font-weight: 700;
+}
+.heading_secondary{
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -.5px;
+  color: #202020;
+}
+/* ==================
+reusable classes end
+====================*/
+
+
+/* ==================
+utilities classes start
+====================*/
+.mb_md{
+  margin-bottom: 2.4rem !important;
+}
+
+
+/* ==================
+utilities classes end
+====================*/
