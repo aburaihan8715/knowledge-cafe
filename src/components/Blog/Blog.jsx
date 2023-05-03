@@ -1,13 +1,13 @@
 import React from "react";
 import "./Blog.css";
-import blogImg from "../../assets/tech.jpg";
-import authorImg from "../../assets/user.jpg";
+// import blogImg from "../../assets/tech.jpg";
+// import authorImg from "../../assets/user.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
-const Blog = ({blog}) => {
-  const {authorImage,author,coverImage,publishDate,readTime,blogTitle}=blog;
-  
+const Blog = ({ blog, onBookMarkedHandler,onSpentTimeHandler }) => {
+  const { authorImage, author, coverImage, publishDate, readTime, blogTitle } = blog;
+
   return (
     <li className="blogs_item">
       <article className="blogs_content">
@@ -27,7 +27,7 @@ const Blog = ({blog}) => {
 
           <p className="read_time_box">
             <span className="read_time">{readTime}</span>min read{" "}
-            <button className="bookmark_btn">
+            <button onClick={() => onBookMarkedHandler(blog)} className="bookmark_btn">
               <FontAwesomeIcon icon={faBookmark} />
             </button>
           </p>
@@ -37,9 +37,7 @@ const Blog = ({blog}) => {
 
         <p className="blogs_type">#programming</p>
 
-        <a className="mark_as_read_link" href="#">
-          Mark as read
-        </a>
+        <button onClick={()=>onSpentTimeHandler(readTime)} className="mark_as_read_btn">Mark as read</button>
       </article>
     </li>
   );

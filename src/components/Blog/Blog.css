@@ -51,7 +51,7 @@
 }
 .read_time {
 }
-.bookmark_btn {
+.bookmark_btn,.mark_as_read_btn {
   cursor: pointer;
   font-size: 2rem;
   border: 0;
@@ -60,9 +60,14 @@
 }
 .blogs_type {
 }
-.mark_as_read_link:link,.mark_as_read_link:visited {
-  font-size: 2rem;
+.mark_as_read_btn {
+  align-self: flex-start;
   font-weight: 600;
   text-decoration: underline;
   color: #6047EC;
+  transition: all 0.3s;
+}
+
+.mark_as_read_btn:hover {
+  color: #4633ae;
 }

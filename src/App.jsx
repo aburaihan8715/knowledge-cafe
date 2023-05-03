@@ -13,34 +13,6 @@ function App() {
         <BlogsContainer></BlogsContainer>
       </main>
       <Footer></Footer>
-
-      {/* <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br /> */}
     </>
   )
 }
