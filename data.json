@@ -1,47 +1,47 @@
 [
   {
     "id": "6451ccb3908ea3dd0b12c5d2",
-    "author_image": "http://placehold.it/40x40",
-    "cover_image": "http://placehold.it/845x450",
-    "read_time": 10,
+    "authorImage": "http://placehold.it/40x40",
+    "coverImage": "http://placehold.it/845x450",
+    "readTime": 10,
     "author": "Judith",
-    "blog_title": "BIOSPAN",
-    "publish_date": "2020-09-21T05:37:59 -06:00"
+    "blogTitle": "BIOSPAN",
+    "publishDate": "2020-09-21T05:37:59 -06:00"
   },
   {
     "id": "6451ccb3fca415f7747a081c",
-    "author_image": "http://placehold.it/40x40",
-    "cover_image": "http://placehold.it/845x450",
-    "read_time": 13,
+    "authorImage": "http://placehold.it/40x40",
+    "coverImage": "http://placehold.it/845x450",
+    "readTime": 13,
     "author": "Lynette",
-    "blog_title": "LOCAZONE",
-    "publish_date": "2022-04-04T06:31:32 -06:00"
+    "blogTitle": "LOCAZONE",
+    "publishDate": "2022-04-04T06:31:32 -06:00"
   },
   {
     "id": "6451ccb3efea7adaa0036861",
-    "author_image": "http://placehold.it/40x40",
-    "cover_image": "http://placehold.it/845x450",
-    "read_time": 18,
+    "authorImage": "http://placehold.it/40x40",
+    "coverImage": "http://placehold.it/845x450",
+    "readTime": 18,
     "author": "Roth",
-    "blog_title": "PARAGONIA",
-    "publish_date": "2022-05-02T02:44:28 -06:00"
+    "blogTitle": "PARAGONIA",
+    "publishDate": "2022-05-02T02:44:28 -06:00"
   },
   {
     "id": "6451ccb3b553515d71c8845b",
-    "author_image": "http://placehold.it/40x40",
-    "cover_image": "http://placehold.it/845x450",
-    "read_time": 11,
+    "authorImage": "http://placehold.it/40x40",
+    "coverImage": "http://placehold.it/845x450",
+    "readTime": 11,
     "author": "Yolanda",
-    "blog_title": "BUZZWORKS",
-    "publish_date": "2018-03-26T01:23:32 -06:00"
+    "blogTitle": "BUZZWORKS",
+    "publishDate": "2018-03-26T01:23:32 -06:00"
   },
   {
     "id": "6451ccb3e29117e1e254464b",
-    "author_image": "http://placehold.it/40x40",
-    "cover_image": "http://placehold.it/845x450",
-    "read_time": 16,
+    "authorImage": "http://placehold.it/40x40",
+    "coverImage": "http://placehold.it/845x450",
+    "readTime": 16,
     "author": "Ila",
-    "blog_title": "IMAGEFLOW",
-    "publish_date": "2020-12-29T06:48:03 -06:00"
+    "blogTitle": "IMAGEFLOW",
+    "publishDate": "2020-12-29T06:48:03 -06:00"
   }
 ]
